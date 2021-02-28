@@ -1,0 +1,104 @@
+:root {
+  --border: none;
+  --background-color-blue1: #7979a8;
+  --background-color-blue2: #64649e;
+  --background-color-blue3: #4d4d91;
+  --background-color-blue4: #2c2c80;
+  --background-color-blue5: #000069;
+  --background-color-tbody: #e7e7e7;
+}
+
+table {
+  width: 700px;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-spacing: 0px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+thead tr {
+  height: 120px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.25rem;
+}
+
+.config1 {
+  width: 270px;
+  background-color: var(--background-color-blue1);
+}
+
+.config2 {
+  width: 126px;
+  background-color: var(--background-color-blue2);
+}
+
+.config3 {
+  width: 126px;
+  background-color: var(--background-color-blue3);
+}
+
+.config4 {
+  width: 126px;
+  background-color: var(--background-color-blue4);
+}
+
+.config5 {
+  width: 126px;
+  background-color: var(--background-color-blue5);
+}
+
+tbody {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(2n-1) {
+  background-color: #dbdbdb;
+  width: 90px;
+  height: 39px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #f3f3f3;
+  width: 90px;
+  height: 39px;
+}
+
+.color-tbody {
+  background-color: var(--background-color-tbody);
+}
+
+.text-tbody-left {
+  text-align: left;
+  padding: 10px;
+}
+
+tfoot td {
+  height: 50px;
+  background-color: #dddddd;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  margin: 20px;
+  font-size: 0.8em;
+}
+
+.web-link:hover {
+  background-color: red;
+  color: white;
+}
+
+.web-link:active {
+  background-color: green;
+  color: gold;
+}
